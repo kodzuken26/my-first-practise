@@ -1,0 +1,38 @@
+.link{
+    text-decoration: none;
+    padding: 0 10px;
+}
+.back{
+    background-color: #485935;
+    position: relative;
+}
+
+.shop-cart-button{
+    color: white;
+    transition: color 500ms ease;
+}
+.shop-cart-button:hover{
+    color: red;
+}
+
+.shop-cart{
+    position: absolute;
+    padding: 20px;
+    top: 100px;
+    right: 0;
+    width: 450px;
+    background-color: #fff;
+    box-shadow: 4px 5px 15px -7px #606060;
+}
+
+.empty{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.summa{
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
